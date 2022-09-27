@@ -1,0 +1,100 @@
+
+			/*INÍCIO DA PRIMEIRA PÁGINA*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+ * {
+ 	margin: 0 auto;
+ 	padding: 0;
+ 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+ }
+
+ #pag1 {
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(45deg, #000000, #5800FF, #E900FF,#FFC600 );
+	background-size: 200% 200%;
+	animation: colors 6s ease infinite;
+ }
+
+ @keyframes colors {
+	0% {
+	background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+ }
+
+ #menu {
+ 	list-style: none;
+ 	padding: 0;
+ }
+
+ #menu li {
+ 	display: inline;
+ }
+
+ #menu li a {
+	 color: #fff;
+ 	 display: inline-block;
+	 padding: 20px;
+	 text-decoration: none;
+	 transition: background .4s;
+ }
+
+ #menu li a:hover {
+	background-color: rgb(155, 10, 155);
+}
+
+#pagina1-h1 h1{
+	color: #fff;
+	font-size: 2em;
+	text-align: center;
+	padding: 20px;
+	margin-top: 300px;
+}
+
+#pagina1-h2 h2 {
+	border: 2px solid white;
+	color: white;
+	display: flex;
+	text-align: center;
+	padding: 5px;
+	max-width: fit-content;
+}
+
+			/*FIM DA PRIMEIRA PÁGINA*/
+
+			/*INÍCIO DA SEGUNDA PÁGINA*/
+
+#pag2 {
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(45deg, #000000, #5800FF, #E900FF, #FFC600);
+	background-size: 200% 200%;
+	height: 100vh;
+	width: 100vw;
+}
+
+#pagina2-h1 h1 {
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-size: 1.4em;
+}
+
+hr {
+	width: 220px;
+	float: left;
+	margin-left: 20px;
+}
